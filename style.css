@@ -1,10 +1,49 @@
 body {
+  margin: 0;
   font-family: Arial;
-  text-align: center;
-  background: #f4f7f7;
-  margin-top: 80px;
 }
 
-h1 {
-  color: #0f2f2f;
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f2f2f;
+  padding: 15px 30px;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.menu a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, #0f2f2f, #1d5c5c);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.dark {
+  background: #f4f7f7;
 }
